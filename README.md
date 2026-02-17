@@ -1,78 +1,76 @@
 Face Recognition Attendance System
 📌 Overview
 
-The Face Recognition Attendance System is a computer vision-based application that automates attendance marking using facial recognition technology. The system detects and recognizes registered faces through a camera and automatically records attendance, reducing manual effort and improving accuracy.
+The Face Recognition Attendance System is a computer vision-based application that automates attendance marking using facial recognition technology. The system detects and recognizes faces in real time through a webcam and records attendance automatically, reducing manual effort and improving reliability.
 
-This project demonstrates the practical use of face detection and recognition for real-time attendance management.
+This project demonstrates the practical implementation of face detection and recognition techniques for real-world attendance management use cases.
 
 🚀 Features
 
-Real-time face detection using webcam
+Real-time face detection and recognition
 
-Automatic attendance marking
+Automated attendance recording
 
-Stores attendance records digitally
+Reduced manual errors and proxy attendance
 
-Reduces manual errors
+Lightweight and easy to use
 
-Easy to use and scalable
+Digital attendance storage
 
-🛠️ Technologies Used
+🛠️ Tech Stack
 
-Python
+Language: Python
 
-OpenCV
+Libraries: OpenCV, Face Recognition, NumPy
 
-Face Recognition Library
+Concepts: Computer Vision, Image Processing, Face Encoding
 
-NumPy
-
-CSV/File Handling
+Storage: CSV File System
 
 📂 Project Structure
 Face-recognition-Attendance/
 │
-├── images/              # Stored face images
-├── attendance.csv       # Attendance records
-├── main.py              # Main execution file
+├── images/                # Registered user images
+├── attendance.csv         # Attendance records
+├── main.py                # Main application file
 └── README.md
 
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
+1️⃣ Clone the Repository
 git clone https://github.com/Mantavyakumar/Face-recognition-Attendance.git
 
-2️⃣ Navigate to project folder
+2️⃣ Move to Project Directory
 cd Face-recognition-Attendance
 
-3️⃣ Install dependencies
-pip install opencv-python
-pip install face-recognition
-pip install numpy
+3️⃣ Install Dependencies
+pip install opencv-python face-recognition numpy
 
-4️⃣ Run the project
+4️⃣ Run the Application
 python main.py
 
-✅ How It Works
+🔄 How It Works
 
-The system loads stored images of registered users.
+The system loads images of registered users.
 
-Faces are encoded and stored.
+Face encodings are generated and stored.
 
-Webcam captures live video.
+Webcam captures live video input.
 
 Faces are detected and matched with stored data.
 
-Attendance is automatically recorded in the attendance file.
+Attendance is recorded automatically in the attendance file.
 
 📈 Future Improvements
 
-Database integration
+Database integration (MySQL/MongoDB)
 
-GUI interface
+Web or GUI interface
 
-Multiple camera support
+User registration module
 
-Cloud-based attendance storage
+Cloud deployment support
+
+Attendance analytics dashboard
 
 👨‍💻 Author
 
